@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Price list</title>
+        <meta name="viewpoint" content="width=device-width, initial scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="prices.css?v=1.0">
+        <link rel="icon" type="image/png" href="cinemaZeno.png">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 800px)" href="pricesmic.css">
+        
+    </head>
+    <body>
+        <canvas id="starCanvas"></canvas>
+        <script src="prototype.js" defer></script>
+        <header class="header">
+            <div class="pozaantet" style="flex-grow: 0">
+                <img src="cinemaZeno.png" alt="CinemaZeno">
+            </div>
+            <div class="textheader" style="flex-grow: 9.5">
+                <h2>Cinema Zeno</h2>
+                <nav class="mainnav">
+                    <ul class="meniu">
+                        <li><a class="active" href="CinemaZeno.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a>
+                            <ul class="submeniu">
+                                <li><a href="gallery.html">Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="movies.html">Movies</a>
+                            <ul class="submeniu">
+                                <li><a href="#prices">Prices</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <h1>Price list</h1>
+        <div class="tables">
+            <aside class="lateral">
+                <h3>Special offerts</h3>
+                <ul>
+                    <li><a href="#onlyone">Only one is not fun!</a></li>
+                    <li><a href="#family">Family pack</a></li>
+                    <li><a href="#datenight">Movie-Date</a></li>
+                    <li><a href="#discounts">Discounts</a></li>
+                    <li><a href="#hws">Holydays/Weekends</a></li>
+                </ul>
+                <img src="photos-CZ/tickets.jpg" alt="tickets">
+            </aside>
+            <section class="lat2">
+                <h3>What do you prefer?</h3>
+                <table>
+                    <tr>
+                    <th>Type</th>
+                    <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Black&White</td>
+                        <td>5 EURO</td>
+                    </tr>
+                    <tr>
+                    <td>2D regular</td>
+                    <td>7 EURO</td>
+                    </tr>
+                    <tr>
+                        <td>2D VIP seat</td>
+                        <td>8 EURO</td>
+                    </tr>
+                    <tr>
+                    <td>3D regular</td>
+                    <td>8 EURO</td>
+                    </tr>
+                    <tr>
+                        <td>3D VIP seat</td>
+                        <td>9 EURO</td>
+                    </tr>
+                    <tr>
+                        <td>4D regular</td>
+                        <td>11 EURO</td>
+                    </tr>
+                    <tr>
+                        <td>4D VIP seat</td>
+                        <td>13 EURO</td>
+                    </tr>
+                </table>
+            </section>
+            
+        </div>
+        <div class="container">
+            <div class="onlyone" id="onlyone">
+                <h3>Only one is not fun!</h3>
+                <p>Maybe coming to watch a movie solo is not a great idea, or maybe you want to enjoy it with your friends. Don't worry! For a group of friends, we let you pay only 70% the price per person!
+                    <i>The promotion is only available for a group of at least 3 people!</i>
+                </p>
+            </div>
+            <div class="family" id="family">
+                <h3>Family pack</h3>
+                <p>We know that having kids is not an easy job and to let them have fun without destroying something is exhausting or expensive. That's the main reason why we included this option for any family with at least 1 child! Come with them and for the whole family you will pay only 65% the price from the total. <i> Attention!: a child is considered a person with less than 18 y/o.</i></p>
+            </div>
+            <div class="datenight" id="datenight">
+                <h3>Movie-Date</h3>
+                <p>All the couples came at least once on a movie-date! Don't miss the opportunity to choose us for such a special night! What do we offer? Two tickets and some snacks at your choise! What's the catch? Your partner's ticket is free!
+                    <i>You will need to present the ID to the entrance to verify that you are not related.</i>
+                </p>
+            </div>
+        </div>
+        <div class="tables">
+            <div id="discounts">
+                <h3>Discounts</h3>
+                <p>Of course, we respect our clients and we offer them the main discounts. Check out the list below:</p>
+                <table>
+                    <tr>
+                    <th>Available for</th>
+                    <th>Prices</th>
+                    <th>Type of movie</th>
+                    </tr>
+                    <tr>
+                        <td>Children</td>
+                        <td>3/5/6/9 EUROS</td>
+                        <td>Black&White/2D/3D/4D</td>
+                    </tr>
+                    <tr>
+                    <td>Students</td>
+                    <td>4/6/7/10 EUROS</td>
+                    <td>Black&White/2D/3D/4D</td>
+                    </tr>
+                    <tr>
+                        <td>Retirees</td>
+                        <td>4/6/7/10 EUROS</td>
+                        <td>Black&White/2D/3D/4D</td>
+                    </tr>
+                    <tr>
+                    <td>Special cases</td>
+                    <td>3/5/6/9 EUROS</td>
+                    <td>Black&White/2D/3D/4D</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="hws">
+                <h3>Holydays/Weekends</h3>
+                <p>Unfortunately, the prices in this category are a bit higher, but we still hope you are going to come and feel the magic in our cinema!</p>
+                <table>
+                    <tr>
+                    <th>Type</th>
+                    <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Black&White</td>
+                        <td>6 EURO</td>
+                    </tr>
+                    <tr>
+                    <td>2D regular</td>
+                    <td>8 EURO</td>
+                    </tr>
+                    <tr>
+                        <td>2D VIP seat</td>
+                        <td>9 EURO</td>
+                    </tr>
+                    <tr>
+                    <td>3D regular</td>
+                    <td>9 EURO</td>
+                    </tr>
+                    <tr>
+                        <td>3D VIP seat</td>
+                        <td>10 EURO</td>
+                    </tr>
+                    <tr>
+                        <td>4D regular</td>
+                        <td>12 EURO</td>
+                    </tr>
+                    <tr>
+                        <td>4D VIP seat</td>
+                        <td>14 EURO</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <p>Enjoy the magic of our cinema!</p>
+            <div class="contact_info">
+                <div class="info_detalii">
+                    <h3>Contact us</h3>
+                    <p><b>Tel:</b> 0725 725 777</p>
+                    <p><b>Mail:</b> cinemazeno@yahoo.com</p>
+                    <p><b>Address:</b> 8, Tudor Vladimirescu Boulevard, Bucharest, Sector 5</p>
+                </div>
+                <div class="locatie">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5736.866765598749!2d26.081109247507065!3d44.4201978762574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sro!2sro!4v1730060545514!5m2!1sro!2sro" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </footer>
+    </body>
+    
+</html>

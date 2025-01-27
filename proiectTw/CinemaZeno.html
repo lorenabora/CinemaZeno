@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cinema Zeno</title>
+	<meta name="Bora Lorena" content="author name">
+	<meta name="viewpoint" content="width=device-width, initial scale=1">
+	<link rel="icon" type="image/png" href="cinemaZeno.png">
+	<link rel="stylesheet" type="text/css" href="cinema.css?v=1.0">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="cinemamic.css">
+	<!--<script type="text/javascript" src="homepg.js?v=1.0" defer></script>-->
+	<script type="text/javascript" src="logsession.js" defer></script>
+	
+</head>
+<body id="home">
+	<header class="header">
+		<div class="pozaantet" style="flex-grow: 0">
+			<img src="cinemaZeno.png" alt="CinemaZeno">
+		</div>
+		<div class="textheader" style="flex-grow: 9">
+			<h2>Cinema Zeno</h2>
+			<nav class="mainnav">
+				<ul class="meniu">
+					<li><a class="active" href="#home">Home</a></li>
+					<li><a href="aboutus.html">About Us</a>
+						<ul class="submeniu">
+							<li><a href="gallery.html">Gallery</a></li>
+						</ul>
+					</li>
+					<li><a href="movies.html">Movies</a>
+						<ul class="submeniu">
+							<li><a href="prices.html">Prices</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<h1>Experience a new vision of your favorite movies with us!</h1>
+	 <!-- Afisez mesaj daca utilizatorul nu este logat-->
+	 <div id="loginWindow" style="display: none;">
+        <h2>Login</h2>
+		<div id ="form4login">
+			<label for="username">Username:</label>
+       		<input type="text" id="username" placeholder="Enter username">
+		</div>
+		<div id="form4login">
+			<label for="password">Password:</label>
+			<input type="password" id="password" placeholder="Enter password">
+		</div>
+		<div id="sameLine">
+			<button onclick="login()">Login</button>
+			<button id="skip">Skip</button>
+		</div>
+		<button  type="submit" id="new">New? Create account</button>
+    </div>
+
+    <!-- Mesaj de bun venit si op logout option-->
+    <div id="welcomeMsg" style="display: none;">
+        <h2>Welcome, <span id="userName"></span>!</h2>
+		<div id="sameLine">
+			<button onclick="logout()">Logout</button>
+			<button id="hi">Hi!</button>
+		</div>
+    </div>
+	
+	<section id="s1">
+		<div class="content1">
+		<div class="image">
+			<img src="photos-CZ/cinema1.jpg" alt="cinema1" width="300" height="350" style="float:left;"><br>
+		</div>
+			<div class="text">
+				<h2>Our new center is our new vision.</h2>
+				<p> With us, you don't only watch a movie in a cosy seat, but also feel every moment with your favorite characters! </p>	
+			
+			</div>
+		</div>
+	</section>
+	<br>
+	<section>
+		<div class="content2">
+			<div class="text">
+				<h2> A place for everybody</h2>
+				<p> We want for every customer to have a pleasent time in our cinema, so you can choose the room that fits your taste.</p>
+				<h4>Check out the kids hall or vintage space!</h4>
+			</div>
+			<div class="image">
+				<img src="photos-CZ/cinemakids.jpg" alt="cinema2" width="350">
+			</div>
+		</div>
+	</section>
+	<br>
+	<section>
+		<div class="content1">
+			<div class="image">
+				<img src="photos-CZ/cinema3.jpg" alt="cinema3" width="300" height="400" style="float:left;"><br>
+			</div>
+			<div class="text">
+				<h2>No more boring layout!</h2>
+				<p> Even if you are coming for a movie, the atmosphere is essential for our guests. Do you like new, SF movies? The AeroHall is just for you!
+					Do you enjoy an old movie? Come on and feel the retro efect of our Vintage Room!
+					You don't want to leave the kids at home? Come with them and let them enjoy an animated production in the WonderHall. </p>	
+				<h4>For more details, check the <i>About Us</i> section.</h4>
+			</div>
+		</div>
+	</section>
+	<br>
+	<section>
+		<div class="content2">
+			<div class="text">
+				<h2>How can you get a ticket?</h2>
+				<p>Easier than ever! If you prefer the classic method, our staff will help you choose a seat and get something to eat or drink.
+					Or maybe you want to just come and enjoy your film without the stress of not finding any seat available. For that, check out the <i>Movies</i> section and follow the steps.</p>
+			</div>
+			<div class="image">
+				<img src="photos-CZ/popcorn.jpg" alt="popcorn" width="350">
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>Enjoy the magic of our cinema!</p>
+		<div class="contact_info">
+			<div class="info_detalii">
+				<h3>Contact us</h3>
+				<p><b>Tel:</b> 0725 725 777</p>
+				<p><b>Mail:</b> cinemazeno@yahoo.com</p>
+				<p><b>Address:</b> 8, Tudor Vladimirescu Boulevard, Bucharest, Sector 5</p>
+			</div>
+			<div class="locatie">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5736.866765598749!2d26.081109247507065!3d44.4201978762574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sro!2sro!4v1730060545514!5m2!1sro!2sro" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

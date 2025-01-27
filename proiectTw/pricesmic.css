@@ -1,0 +1,53 @@
+@media screen and (max-width:800px){
+    .pozaantet>img{
+        width:100px;
+    }
+    .text>p{
+        font-size:1em;
+    }
+    .text>h2{
+        font-size: 1.5em;
+    }
+    .textheader>h2{
+        font-size:2em;
+    }
+    .mainnav{
+        font-size:1em;
+    }
+    .lateral{
+        width:90%;
+        text-align:center;
+        display:flex;
+        justify-content: space-around;
+    }
+    .lateral>img{
+        width:100px;
+        padding:0px;
+    }
+    .lat2{
+        width:89%;
+        margin: 20px 0px 20px 0px;
+    }
+    .lat2>h3{
+        font-size:1.5em;
+    }
+    footer>p{
+        font-size:1em;
+    }
+    .info_detalii{
+        font-size:1em;
+    }
+    .container>h3{
+        font-size:1em;
+    }
+    .tables, .container{
+        flex-direction: column;
+    }
+    iframe{
+        width: 180px;
+        height: 180px;
+    }
+    .contact_info{
+        margin:20px;
+    }
+}

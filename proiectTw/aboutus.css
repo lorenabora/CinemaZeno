@@ -1,0 +1,234 @@
+body{
+    
+    background: url(fundalcinema.jpg);
+    background-color: black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:white;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: black;
+    padding: 0px;
+    margin:0px;
+    text-align:left;
+    border-bottom:#330000;
+    top:0;
+    z-index:10;
+
+    display:flex;
+    align-content: stretch;
+    text-align:left;
+    width:100%;
+}
+.pozaantet{
+    margin:0px;
+    padding:0px;
+}
+.pozaantet>img{
+    width:90px;
+    margin:0px;
+    padding:0px;
+}
+.textheader>h2{
+    margin:5px;
+}
+.header{
+    position: sticky;
+    top:0;
+}
+.submeniu a{
+    color:silver;
+}
+.mainnav{
+    background-color:maroon;
+    padding: 0px;
+}
+.meniu{
+    display:flex;
+    flex-direction: row;
+}
+.submeniu{
+    background:url(NavStyle.png);
+    background-size: cover;
+}
+
+.mainnav>ul.meniu>li>ul{
+    list-style-type: none;
+    padding:0px;
+}
+.mainnav>ul.meniu>li{
+    list-style-type: none;
+    padding:0px;
+}
+nav>ul.meniu>li>ul.submeniu{
+    display:none;
+
+}
+nav>.meniu>li:hover>ul.submeniu{
+    display:block;
+}
+.mainnav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display:block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-family: fantasy;
+    margin: 3px;
+    transition: background-color 2s, red 2s;
+}
+ul.submeniu>li{
+    height:50px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.mainnav a:hover{
+    background-color: black;
+    color: crimson;
+}
+
+.mainnav a:active{
+    background-color: silver;
+    color:#bb0a1e;
+}
+
+
+body > h1{
+    text-align: center;
+    background-color: #1105058c;
+}
+
+.secabout1{
+    background-color: #33000084;
+    text-align:center;
+    margin: 20px 100px 20px 100px;
+    padding:20px;
+}
+
+.sectiune1{
+    display: flex;
+    background-color: #33000084;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    /*align-items: center;*/
+    justify-content:space-between;
+    text-align: left;
+}
+.sectiune1>div{
+    flex:1 1 25%;
+    margin: 10px;
+    padding: 10px;
+}
+/*float:left;
+.sectiune1>div{
+    float:left;
+}*/
+.sectiune2{
+    display:flex;
+    background-color: #33000084;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sectiune2>div{
+    flex:1 1 25%;
+    margin: 10px;
+    padding: 10px;
+}
+
+input {
+    width: 40%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.514);
+    background-color: #33000084;
+    color:white;
+    border-color: #33000024;
+  }
+  label{
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.514);
+    background-color: #33000084;
+    color:white;
+    border-color: #33000084;
+  }
+  
+  #comment_section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    float: left;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    box-shadow: 0 0 20px rgba(192, 192, 192, 0.445);
+    color:rgb(255, 255, 255);
+  }
+  
+  #posts {
+    padding: 20px;
+    margin: 20px 100px 20px 100px;
+
+  }
+  
+  .post {
+    margin-bottom: 8px;
+  }
+
+
+.contact_info{
+    display:flex;
+    padding:10px;
+    margin:50px;
+    justify-content: space-evenly;
+    background-color: #33000084;
+    align-items: center;
+    text-align: left;
+}
+.info_detalii>h3{
+    text-align: center;
+    background-color: #330000;
+}
+footer{
+    background-color: maroon;
+    padding: 1px;
+    margin: 0px;
+    text-align:center;
+    color:white;
+    border-top:#330000
+}
+
+footer>p::after{
+    content:"🍿";
+    margin-left:5px;
+}
+
+footer>p::before{
+    content:"🎬";
+    margin-right: 5px;
+}
