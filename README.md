@@ -21,7 +21,7 @@ This is the face of an fictional site that I built using only frontend languages
 ![About us](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231303.png)
 ![Galery](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231351.png)
 ![Movies](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231405.png)
-![Prices]()
+![Prices](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231421.png)
 
 ## How to unlock the dynamic js exercises
 You need to change the site on localhost, for that you need to:
