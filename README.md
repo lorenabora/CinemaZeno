@@ -1,14 +1,14 @@
 # CinemaZeno
 
 ## Why built this?
-This is the face of an fictional site that I built using only frontend languages for a better understanding on how to create a site from the scratch. I wanted to use my concepts of design and coding skills in actually a real product because, to be honest, most websites don't have the most appealing appearance.
+This is the face of an fictional site that I built using only frontend languages for a better understanding on how to create a site from the scratch. I wanted to use my concepts of design and coding skills in actually a real product because, let’s be honest—most websites aren’t exactly eye candy, so I wanted to challenge that.
 
 ## Features
-- multi-page site, navigating through a menu
-- implementing standard header/footer for a stronger easy-to-know on which page the user is and how to move back to home page
-- login form (NOT at all secure, it was a practice exercise on how to create it, but the data stored in each session is way too vulnerable)
-- animation type carousel (from `https://freefrontend.com/css-carousels/` with additional changes)
-- on-click greatings in several foreign languages (practise exercise using a json file and random function)
+- multi-page site navigation via menu
+- standard header/footer for a consistent layout and easy navigation
+- login form (NOT at all secure, it was a practice exercise on how to create it; session data is vulnerable)
+- animation type carousel (based on `https://freefrontend.com/css-carousels/` with additional changes)
+- on-click greatings in several foreign languages (practise exercise using a json file and randomization)
 
 ## Languages used
 - HTML
@@ -21,10 +21,11 @@ You need to change the site on localhost, for that you need to:
 2. Then open on your browser the site, making sure that the first part of the URL looks like this: `http://localhost:8000/...`. With a refresh, you should be ready to go and explore the intgerastives applications that I created using js.
 
 ## Lessons learnt
-1. Center a div? A challenge I actually laught it out before I actually spent a full day on the menu
-2. Understanding how each language I used creates part of the site
-3. Styling using layers in CSS and animations/transitions
-4. Working with exceptions, random functions and interactive elements with JavaScript
+1. Center a div? A challenge I laught it out before I actually spent a full day working on the menu
+2. Understanding how each language contributes to the structure and behaviour of the site
+3. Styling with CSS, transitions and animations
+4. Handling exceptions and building interactive feautures with JavaScript
 
 ## Future Plans
-- Maybe make the site more secure (now is the perfect anti-exemple in all aspects and I want to make some time to at least shorten the list)
+- Maybe make the site more secure (now is the perfect anti-exemple or a textbook of what NOT to do)
+- Possibly integrate a backend and real movie data
