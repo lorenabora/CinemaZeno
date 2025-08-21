@@ -32,8 +32,8 @@ You need to change the site on localhost, for that you need to:
 1. Center a div? A challenge I laughed it off before I actually spent a full day working on the menu
 2. Understanding how each language contributes to the structure and behaviour of the site
 3. Styling with CSS, transitions and animations
-4. Handling exceptions and building interactive feautures with JavaScript
+4. Handling exceptions and building interactive features with JavaScript
 
 ## Future Plans
-- Maybe make the site more secure (now is the perfect anti-exemple or a textbook of what NOT to do)
+- Maybe make the site more secure (now is the perfect anti-example or a textbook of what NOT to do)
 - Possibly integrate a backend and real movie data
