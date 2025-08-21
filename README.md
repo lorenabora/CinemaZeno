@@ -18,10 +18,15 @@ This is the face of a fictional site that I built using only frontend languages 
 ## Screenshots
 ### Homepage
 ![Homepage](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231230.png)
+*Clean home page with a drop down menu for the Gallery and Price list pages.*
 ![About us](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231303.png)
-![Galery](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231351.png)
+*Curious about us? Check this page!*
+![Gallery](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231351.png)
+*For a fictional cinema, I needed some appropriate images with clear and short messages.*
 ![Movies](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231405.png)
-![Prices](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231421.png)
+*Top 5 movies available for this week! And maybe some small facts about some well-known actors.*
+![Price list](https://github.com/lorenabora/CinemaZeno/blob/main/CinemaZenoSS/Screenshot%202025-08-21%20231421.png)
+*Transparency is a must in each business. Maybe you should visit us soon!*
 
 ## How to unlock the dynamic js exercises
 You need to change the site on localhost, for that you need to:
