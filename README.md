@@ -15,6 +15,14 @@ This is the face of an fictional site that I built using only frontend languages
 - CSS
 - JavaScript
 
+## Screenshots
+### Homepage
+![Homepage]()
+![About us]()
+![Galery]()
+![Movies]()
+![Prices]()
+
 ## How to unlock the dynamic js exercises
 You need to change the site on localhost, for that you need to:
 1. Because the project is static, run in bash/cmd the following command: `python -m http.server 8000`. This will make it easier to connect as localhost to the site.
